@@ -1,13 +1,22 @@
+.user-component-second,
 .user-component{
     justify-content: space-between;
+    margin-bottom: 12px;
 }
 
+.user-component-second,
 .user-component,
 .user-component__column:first-child{
     display: flex;
     align-items: center;
 }
 
+.user-component-second__column:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.user-component__avatar-second,
 .user-component__avatar{
     width: 70px;
     height: 70px;
@@ -15,12 +24,14 @@
     margin-right: 20px;
 }
 
+.user_component-second__title,
 .user_component__title {
     font-weight: 600;
     font-size: 22px;
 }
 
-.ser-component__subtitle{
+.user-component-second__subtitle,
+.user-component__subtitle{
     margin-top: 8px;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.5);
@@ -41,6 +52,7 @@
     font-weight: 400;
 }
 
+.user-component-second__column:last-child,
 .user-component__column:last-child{
     color: rgba(0, 0, 0, 0.4);
     display: flex;
@@ -48,6 +60,7 @@
     align-items: flex-end;
 }
 
+.user-component-second__time,
 .usesr-component__time{
     margin-bottom: 5px;
     display: block;
